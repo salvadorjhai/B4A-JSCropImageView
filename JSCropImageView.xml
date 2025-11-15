@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <doclet-version-NOT-library-version>1.05</doclet-version-NOT-library-version>
+    <class>
+        <name>com.salvadorjhai.widgets.JSCropImageView</name>
+        <shortname>JSCropImageView</shortname>
+        <comment>The Class JSCropImageView.</comment>
+        <objectwrapper>com.theartofdev.edmodo.cropper.CropImageView</objectwrapper>
+        <owner>activity</owner>
+        <event>OnCropImageComplete(view As JSCropImageView, result As JSCropResult)</event>
+        <method>
+            <name>RequestFocus</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>BringToFront</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>RemoveView</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>SetBackgroundImage</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>android.graphics.Bitmap</type>
+            </parameter>
+        </method>
+        <method>
+            <name>isFixAspectRatio</name>
+            <comment>Checks if is fix aspect ratio.
+Return type: @return:true, if is fix aspect ratio</comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>clearAspectRatio</name>
+            <comment>Clear aspect ratio.</comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>Invalidate3</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg1</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg2</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg3</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>setMaxCropResultSize</name>
+            <comment>Sets the max crop result size.
+maxCropResultWidth: the max crop result width
+maxCropResultHeight: the max crop result height</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>maxCropResultWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>maxCropResultHeight</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>Invalidate2</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>android.graphics.Rect</type>
+            </parameter>
+        </method>
+        <method>
+            <name>IsInitialized</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>Initialize</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>ba</name>
+                <type>anywheresoftware.b4a.BA</type>
+            </parameter>
+            <parameter>
+                <name>eventName</name>
+                <type>java.lang.String</type>
+            </parameter>
+        </method>
+        <method>
+            <name>getCroppedImage2</name>
+            <comment>Gets the cropped image.
+reqWidth: the req width
+reqHeight: the req height
+Return type: @return:the cropped image</comment>
+            <returntype>android.graphics.Bitmap</returntype>
+            <parameter>
+                <name>reqWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>reqHeight</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>getCroppedImage3</name>
+            <comment>Gets the cropped image.
+reqWidth: the req width
+reqHeight: the req height
+options: the options
+Return type: @return:the cropped image</comment>
+            <returntype>android.graphics.Bitmap</returntype>
+            <parameter>
+                <name>reqWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>reqHeight</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>options</name>
+                <type EnumType="true">com.theartofdev.edmodo.cropper.CropImageView.RequestSizeOptions</type>
+            </parameter>
+        </method>
+        <method>
+            <name>isShowCropOverlay</name>
+            <comment>Checks if is show crop overlay.
+Return type: @return:true, if is show crop overlay</comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>clearImage</name>
+            <comment>Clear image.</comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>setAspectRatio</name>
+            <comment>Sets the aspect ratio.
+aspectRatioX: the aspect ratio X
+aspectRatioY: the aspect ratio Y</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>aspectRatioX</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>aspectRatioY</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>getCroppedImageAsync3</name>
+            <comment>Gets the cropped image async.
+reqWidth: the req width
+reqHeight: the req height
+options: the options
+Return type: @return:the cropped image async</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>reqWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>reqHeight</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>options</name>
+                <type EnumType="true">com.theartofdev.edmodo.cropper.CropImageView.RequestSizeOptions</type>
+            </parameter>
+        </method>
+        <method>
+            <name>resetCropRect</name>
+            <comment>Reset crop rect.</comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>getCroppedImageAsync2</name>
+            <comment>Gets the cropped image async.
+reqWidth: the req width
+reqHeight: the req height
+Return type: @return:the cropped image async</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>reqWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>reqHeight</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>isAutoZoomEnabled</name>
+            <comment>Checks if is auto zoom enabled.
+Return type: @return:true, if is auto zoom enabled</comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>rotateImage</name>
+            <comment>Rotate image.
+degrees: the degrees</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>degrees</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>SetLayout</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg1</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg2</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg3</name>
+                <type Pixel="true">int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>Invalidate</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>DesignerCreateView</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>paramPanelWrapper</name>
+                <type>anywheresoftware.b4a.objects.PanelWrapper</type>
+            </parameter>
+            <parameter>
+                <name>paramLabelWrapper</name>
+                <type>anywheresoftware.b4a.objects.LabelWrapper</type>
+            </parameter>
+            <parameter>
+                <name>paramMap</name>
+                <type>anywheresoftware.b4a.objects.collections.Map</type>
+            </parameter>
+        </method>
+        <method>
+            <name>SetColorAnimated</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg1</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg2</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>setMinCropResultSize</name>
+            <comment>Sets the min crop result size.
+minCropResultWidth: the min crop result width
+minCropResultHeight: the min crop result height</comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>minCropResultWidth</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>minCropResultHeight</name>
+                <type>int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>isShowProgressBar</name>
+            <comment>Checks if is show progress bar.
+Return type: @return:true, if is show progress bar</comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>SetLayoutAnimated</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg1</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg2</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg3</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <parameter>
+                <name>arg4</name>
+                <type Pixel="true">int</type>
+            </parameter>
+        </method>
+        <method>
+            <name>SetVisibleAnimated</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>int</type>
+            </parameter>
+            <parameter>
+                <name>arg1</name>
+                <type>boolean</type>
+            </parameter>
+        </method>
+        <method>
+            <name>SendToBack</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <property>
+            <name>Enabled</name>
+            <returntype>boolean</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>boolean</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>FixedAspectRatio</name>
+            <parameter>
+                <name>fixAspectRatio</name>
+                <type>boolean</type>
+            </parameter>
+            <comment>Sets the fixed aspect ratio.</comment>
+        </property>
+        <property>
+            <name>Visible</name>
+            <returntype>boolean</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>boolean</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>AspectRatio</name>
+            <returntype>int[]</returntype>
+            <comment>Gets the aspect ratio.</comment>
+        </property>
+        <property>
+            <name>ImageBitmap</name>
+            <parameter>
+                <name>bitmap</name>
+                <type>android.graphics.Bitmap</type>
+            </parameter>
+            <comment>Sets the image bitmap.</comment>
+        </property>
+        <property>
+            <name>CropShape</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>cropShape</name>
+                <type>int</type>
+            </parameter>
+            <comment>Gets the crop shape.</comment>
+        </property>
+        <property>
+            <name>Background</name>
+            <returntype>android.graphics.drawable.Drawable</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>android.graphics.drawable.Drawable</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>ShowCropOverlay</name>
+            <parameter>
+                <name>showCropOverlay</name>
+                <type>boolean</type>
+            </parameter>
+            <comment>Sets the show crop overlay.</comment>
+        </property>
+        <property>
+            <name>Tag</name>
+            <returntype>java.lang.Object</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type>java.lang.Object</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>Width</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>CroppedImageAsync</name>
+            <returntype>void</returntype>
+            <comment>Gets the cropped image async.</comment>
+        </property>
+        <property>
+            <name>MaxZoom</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>maxZoom</name>
+                <type>int</type>
+            </parameter>
+            <comment>Gets the max zoom.</comment>
+        </property>
+        <property>
+            <name>Parent</name>
+            <returntype>java.lang.Object</returntype>
+            <comment></comment>
+        </property>
+        <property>
+            <name>Top</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>CroppedImage</name>
+            <returntype>android.graphics.Bitmap</returntype>
+            <comment>Gets the cropped image.</comment>
+        </property>
+        <property>
+            <name>Guidelines</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>guidelines</name>
+                <type>int</type>
+            </parameter>
+            <comment>Gets the guidelines.</comment>
+        </property>
+        <property>
+            <name>ScaleType</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>scaleType</name>
+                <type>int</type>
+            </parameter>
+            <comment>Gets the scale type.</comment>
+        </property>
+        <property>
+            <name>CropPoints</name>
+            <returntype>float[]</returntype>
+            <comment>Gets the crop points.</comment>
+        </property>
+        <property>
+            <name>Height</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>Left</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>arg0</name>
+                <type Pixel="true">int</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>Color</name>
+            <parameter>
+                <name>arg0</name>
+                <type>int</type>
+            </parameter>
+            <comment></comment>
+        </property>
+        <property>
+            <name>MultiTouchEnabled</name>
+            <parameter>
+                <name>multiTouchEnabled</name>
+                <type>boolean</type>
+            </parameter>
+            <comment>Sets the multi touch enabled.</comment>
+        </property>
+        <property>
+            <name>SnapRadius</name>
+            <parameter>
+                <name>snapRadius</name>
+                <type>float</type>
+            </parameter>
+            <comment>Sets the snap radius.</comment>
+        </property>
+        <property>
+            <name>RotatedDegrees</name>
+            <returntype>int</returntype>
+            <parameter>
+                <name>degrees</name>
+                <type>int</type>
+            </parameter>
+            <comment>Gets the rotated degrees.</comment>
+        </property>
+        <property>
+            <name>CropRect</name>
+            <returntype>android.graphics.Rect</returntype>
+            <parameter>
+                <name>rect</name>
+                <type>android.graphics.Rect</type>
+            </parameter>
+            <comment>Gets the crop rect.</comment>
+        </property>
+        <property>
+            <name>ShowProgressBar</name>
+            <parameter>
+                <name>showProgressBar</name>
+                <type>boolean</type>
+            </parameter>
+            <comment>Sets the show progress bar.</comment>
+        </property>
+        <property>
+            <name>AutoZoomEnabled</name>
+            <parameter>
+                <name>autoZoomEnabled</name>
+                <type>boolean</type>
+            </parameter>
+            <comment>Sets the auto zoom enabled.</comment>
+        </property>
+    </class>
+    <class>
+        <name>com.salvadorjhai.widgets.JSCropImageView.JSScaleType</name>
+        <shortname>ScaleType</shortname>
+        <comment>Options for scaling the bounds of cropping image to the bounds of Crop Image View.&lt;br&gt;
+ Note: Some options are affected by auto-zoom, if enabled.</comment>
+        <owner>process</owner>
+        <field>
+            <name>FIT_CENTER</name>
+            <comment>Scale the image uniformly (maintain the image's aspect ratio) to fit in crop image view.&lt;br&gt;
+ The largest dimension will be equals to crop image view and the second dimension will be smaller.</comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>CENTER_INSIDE</name>
+            <comment>Scale the image uniformly (maintain the image's aspect ratio) so that both
+ dimensions (width and height) of the image will be equal to or &lt;b&gt;less&lt;/b&gt; than the
+ corresponding dimension of the view (minus padding).&lt;br&gt;
+ The image is then centered in the view.&lt;br&gt;
+ Note: If auto-zoom is enabled and the source image is smaller than crop image view then it will be
+ scaled uniformly to fit the crop image view.</comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>CENTER_CROP</name>
+            <comment>Scale the image uniformly (maintain the image's aspect ratio) so that both
+ dimensions (width and height) of the image will be equal to or &lt;b&gt;larger&lt;/b&gt; than the
+ corresponding dimension of the view (minus padding).&lt;br&gt;
+ The image is then centered in the view.</comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>CENTER</name>
+            <comment>Center the image in the view, but perform no scaling.&lt;br&gt;
+ Note: If auto-zoom is enabled and the source image is smaller than crop image view then it will be
+ scaled uniformly to fit the crop image view.</comment>
+            <returntype>int</returntype>
+        </field>
+    </class>
+    <class>
+        <name>com.salvadorjhai.widgets.JSCropImageView.JSGuidelines</name>
+        <shortname>Guidelines</shortname>
+        <comment>The possible guidelines showing types.</comment>
+        <owner>process</owner>
+        <field>
+            <name>ON</name>
+            <comment>Always show</comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>ON_TOUCH</name>
+            <comment>Show when crop move action is live</comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>OFF</name>
+            <comment>Never show</comment>
+            <returntype>int</returntype>
+        </field>
+    </class>
+    <class>
+        <name>com.salvadorjhai.widgets.JSCropImageView.JSCropShape</name>
+        <shortname>CropShape</shortname>
+        <comment>The possible cropping area shape.&lt;br&gt;
+ To set square/circle crop shape set aspect ratio to 1:1.</comment>
+        <owner>process</owner>
+        <field>
+            <name>RECTANGLE</name>
+            <comment></comment>
+            <returntype>int</returntype>
+        </field>
+        <field>
+            <name>OVAL</name>
+            <comment></comment>
+            <returntype>int</returntype>
+        </field>
+    </class>
+    <class>
+        <name>com.salvadorjhai.widgets.JSCropImageView.JSCropResult</name>
+        <shortname>CropResult</shortname>
+        <comment>Result data of crop image.</comment>
+        <objectwrapper>com.theartofdev.edmodo.cropper.CropImageView.CropResult</objectwrapper>
+        <owner>process</owner>
+        <method>
+            <name>isSuccessful</name>
+            <comment>Is the result is success or error.</comment>
+            <returntype>boolean</returntype>
+        </method>
+        <method>
+            <name>IsInitialized</name>
+            <comment></comment>
+            <returntype>boolean</returntype>
+        </method>
+        <property>
+            <name>CropRect</name>
+            <returntype>android.graphics.Rect</returntype>
+            <comment>The rectangle of the cropping window in the source image</comment>
+        </property>
+        <property>
+            <name>Bitmap</name>
+            <returntype>android.graphics.Bitmap</returntype>
+            <comment>The cropped image bitmap result.&lt;br&gt;
+ Null if save cropped image was executed, no output requested or failure.</comment>
+        </property>
+        <property>
+            <name>CropPoints</name>
+            <returntype>float[]</returntype>
+            <comment>The 4 points of the cropping window in the source image</comment>
+        </property>
+        <property>
+            <name>Rotation</name>
+            <returntype>int</returntype>
+            <comment>The final rotation of the cropped image relative to source</comment>
+        </property>
+        <property>
+            <name>Error</name>
+            <returntype>java.lang.Exception</returntype>
+            <comment>The error that failed the loading/cropping (null if successful)</comment>
+        </property>
+        <property>
+            <name>SampleSize</name>
+            <returntype>int</returntype>
+            <comment>sample size used creating the crop bitmap to lower its size</comment>
+        </property>
+    </class>
+    <version>0.1</version>
+    <author>salvadorjhai</author>
+    <dependsOn>JSAndroid-Image-Cropper.aar</dependsOn>
+    <dependsOn>android-support-v4</dependsOn>
+    <dependsOn>android-support-annotations</dependsOn>
+</root>
